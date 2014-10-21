@@ -1,0 +1,75 @@
+/* Layout (global rules for all sizes) */
+body {margin: 0; padding: 0;}
+
+
+ header .h_bigOne
+ {
+    float: left;
+    width: 70%;
+    height: 100%;
+    border-bottom: 2px solid #062833;
+    background-color: #666633;
+    position: relative;
+
+}           
+
+/* Layout Large Screens (default for older browsers) */
+header
+{
+    height: 180px;
+    background-color: #990033;
+
+}
+
+.h_bigOne #h_textUP
+ {
+    right: 20px;
+    position: absolute;
+    bottom: 10px;
+}
+
+#h_textDW
+ {
+    right: 20px;
+    position: absolute;
+    bottom: -30px;
+} 
+
+header .h_homeLink{
+    float: left;
+    background-color: #CCCC99;
+    width: 150px;
+    height: 150px;
+    margin: 15px 0px 0px 15px;
+
+}  
+
+article { 
+    width: 100%;
+    height: 100%;
+}
+article section {
+    width: 50%;
+    height: 80%;
+   float: left;
+}
+
+article aside
+{
+    width: 50%;
+    height: 100%;
+    float: right;    
+}
+
+
+article nav {
+    width: 50%;
+    height: 20%;
+    float: left;
+}
+
+footer
+{
+    width: 100%;
+    height: 10%;
+}
