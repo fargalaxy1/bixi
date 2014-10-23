@@ -70,7 +70,6 @@ h3 {
 }
 header .h_bigOne
  {
-   
      /*font-family: 'lato-regular-webfont';*/
 
 }
@@ -96,6 +95,14 @@ article nav {
 article aside
 {
     background:rgb(255,255,255);
+    background-image: url(../_media/bbixi_img_background800.jpg);
+    background-repeat: no-repeat;
+ /*   -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+*/  background-position: 50% 50%;
+ 
 }
 
 footer {
