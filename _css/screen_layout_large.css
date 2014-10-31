@@ -19,7 +19,7 @@ body {
 /* Layout Large Screens (default for older browsers) */
 header
 {
-    height: 180px;
+    height: 120px;
     background:rgb(255,255,255);
 
 }
@@ -49,22 +49,27 @@ header .h_homeLink{
 
 article { 
     width: 100%;
-    height: 100%;
+    /*height: 80%;*/
 }
 article section {
     width: 50%;
     height: 80%;
    float: left;
 }
-
 article aside
 {
     width: 50%;
-    height: 100%;
+    height: 80%;
     float: right;    
 }
-
-
+article aside div
+{  
+    width: 589px;
+    height: 500px;
+    padding-left: 3.9%;
+    margin: auto;
+    background: url(../_media/lg_aside_bixi_500.jpg) no-repeat;
+}
 article nav {
     width: 50%;
     height: 20%;
@@ -75,4 +80,5 @@ footer
 {
     width: 100%;
     height: 10%;
+    float: left;
 }
