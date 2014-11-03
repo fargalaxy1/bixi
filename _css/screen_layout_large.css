@@ -64,11 +64,11 @@ article aside
 }
 article aside div
 {  
-    width: 589px;
+/*    width: 589px;
     height: 500px;
     padding-left: 3.9%;
     margin: auto;
-    background: url(../_media/lg_aside_bixi_500.jpg) no-repeat;
+*/    /*background: url(../_media/lg_aside_bixi_500.jpg) no-repeat;*/
 }
 article nav {
     width: 50%;
@@ -81,4 +81,15 @@ footer
     width: 100%;
     height: 10%;
     float: left;
+}
+
+.page {
+    background-image: url("../_media/bixi-background3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+    min-height: 100%;
+    position: relative;
 }
