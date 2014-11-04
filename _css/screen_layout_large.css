@@ -82,14 +82,23 @@ footer
     height: 10%;
     float: left;
 }
-
-.page {
-    background-image: url("../_media/bixi-background3.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 100%;
-    margin: 0 auto;
+#innerWrapper {
+     background:rgb(255,0,255);
+     max-width: 95%;
     height: 100%;
+    width: 90%;
+     margin: 0px auto 0px auto;
+     position: relative;
+}
+#outerWrapper {
+    background-image: url("../_media/bixi-background3.jpg");
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
     min-height: 100%;
+    min-width: 100%;    
+    max-width: 100%;
+    width: 100%;
+    margin: 0px auto 0px auto;
     position: relative;
 }

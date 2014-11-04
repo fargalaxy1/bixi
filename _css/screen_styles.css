@@ -44,11 +44,18 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
     overflow:auto;
     background-image: url("../_media/bixi-background4.jpg"); 
 }
+    min-height: 100%;
+    min-width: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
 */
-.page {
+#outerWrapper {
     background:rgb(255,255,255);
-    max-width: 95%;
-    height: 90%;
+    min-height: 100%;
+    min-width: 100%;    
+    max-width: 100%;
+    width: 100%;
     margin: 0px auto 0px auto;
     position: relative;
 }
