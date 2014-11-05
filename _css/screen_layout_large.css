@@ -49,7 +49,8 @@ header .h_homeLink{
 
 article { 
     width: 100%;
-    /*height: 80%;*/
+    height: 80%;
+
 }
 article section {
     width: 50%;
@@ -74,6 +75,9 @@ article nav {
     width: 50%;
     height: 20%;
     float: left;
+position: relative;
+bottom: 0px;
+
 }
 
 footer
@@ -83,12 +87,14 @@ footer
     float: left;
 }
 #innerWrapper {
-     background:rgb(255,0,255);
-     max-width: 95%;
+    /*background:rgba(255,0,255,0.1);*/
     height: 100%;
     width: 90%;
-     margin: 0px auto 0px auto;
-     position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+     position: absolute;
 }
 #outerWrapper {
     background-image: url("../_media/bixi-background3.jpg");
