@@ -57,8 +57,9 @@ article {
 }
 article section {
     width: 50%;
-    height: 60%;
+    height: 70%;
    float: left;
+   position: relative;
 }
 article aside
 {
