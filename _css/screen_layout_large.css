@@ -4,6 +4,29 @@ body {
     padding: 0;
 }
 
+#innerWrapper {
+    /*background:rgba(255,0,255,0.1);*/
+    height: 100%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+     position: absolute;
+}
+#outerWrapper {
+    background-image: url("../_media/bixi-background.jpg");
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    min-height: 100%;
+    min-width: 100%;    
+    max-width: 100%;
+    height: 100%;
+    width: 100%;
+    margin: 0px auto 0px auto;
+    position: relative;
+}
 
  header .h_bigOne
  {
@@ -11,7 +34,6 @@ body {
     width: 70%;
     height: 100%;
     border-bottom: 2px solid #858282;
-    /*background:rgb(255,255,255);*/
     position: relative;
     margin-right: 30px
 
@@ -80,6 +102,11 @@ article aside div
    /*word-wrap: break-word;*/
      /*background: url(../_media/lg_aside_bixi_500.jpg) no-repeat;*/
 }
+
+.aside_button{
+   width: 60px;
+  height: 60px;
+}
 article nav {
     width: 50%;
     height: 20%;
@@ -93,27 +120,4 @@ footer
     width: 100%;
     height: 7%;
     float: left;
-}
-#innerWrapper {
-    /*background:rgba(255,0,255,0.1);*/
-    height: 100%;
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;
-     position: absolute;
-}
-#outerWrapper {
-    background-image: url("../_media/bixi-background.jpg");
-    background-position: right bottom;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    min-height: 100%;
-    min-width: 100%;    
-    max-width: 100%;
-    height: 100%;
-    width: 100%;
-    margin: 0px auto 0px auto;
-    position: relative;
 }

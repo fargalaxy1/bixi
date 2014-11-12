@@ -1,44 +1,51 @@
-html {
-    /*font-family: 'sofadione-regular';*/
-        height: 100%;
-
-}
+/* Layout (global rules for all sizes) */
 body {
-/*   background: rgb(25,33,30);*/
-    background:rgb(255,0,255);
-    width: 100%;
-    height: 100%;
     margin: 0;
-    overflow-x: hidden;
     padding: 0;
-/* font-family: 'sofadione-regular';
-*/}
-
-
-article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
-    display: block;
 }
-
-.page {
-    background: none no-repeat fixed 50% 50% / cover;
+#innerWrapper {
     height: 100%;
-    min-height: 70%;
-    max-height: 100%;
-    /*overflow: hidden;*/
-    position: relative;
-    width: 100%;
-    margin: 0 auto; 
-    overflow:auto;
-    background-image: url("../_media/bixi-background4.jpg"); 
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+     position: absolute;
 }
+#outerWrapper {
+    background-image: url("../_media/bixi-background_medium.jpg");
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    min-height: 100%;
+    min-width: 100%;    
+    max-width: 100%;
+    height: 100%;
+    width: 100%;
+    margin: 0px auto 0px auto;
+    position: relative;
+}
+
 
  header .h_bigOne
  {
+    float: left;
     width: 70%;
-    height: 100px;
+    height: 100%;
+    border-bottom: 2px solid #858282;
     position: relative;
-    border-bottom: 2px solid #062833;
-}           
+    margin-right: 30px
+
+}
+
+/* Layout Large Screens (default for older browsers) */
+header
+{
+    /*height: 13%;*/
+    height: 90px;
+    /*background:rgb(255,255,255);*/
+
+}
 
 .h_bigOne #h_textUP
  {
@@ -54,8 +61,160 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
     bottom: -30px;
 } 
 
-aside {
-    
-    
+header .h_homeLink{
+    float: right;
+    /*background:rgb(255,255,255);*/
+    width: 70px;
+    height: 70px;
+    margin: 40px -150px 0px 15px;
+    padding-left: 10px;
+
+}  
+
+article { 
+    width: 100%;
+    height: 80%;
+
+}
+article section {
+    width: 50%;
+    height: 70%;
+   float: left;
+   position: relative;
+}
+.art_textBox{
+  padding: 1em;
+  font-size: 1.1em;
+  letter-spacing: 1px;
+}
+.circle {
+  position: relative;
+  width: 70px;
+  height: 70px;
+}
+
+.circle span {
+  display: block;
+  position: absolute;
+  font-size: 1.1em;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+}
+article aside
+{
+    width: 50%;
+    height: 80%;
+    float: right;
+    margin-top: 8%;
+    position: relative;  
+}
+article aside div
+{  
+    width: 200px;
+    height: 80px;
+    font-size: 1.5em;
+    color: black;
+    /*height: 500px;*/
+    /*padding-left: 3.9%;*/
+   /*word-wrap: break-word;*/
+     /*background: url(../_media/lg_aside_bixi_500.jpg) no-repeat;*/
+}
+article nav {
+    width: 50%;
+    height: 20%;
+    float: left;
+position: absolute;
+
+}
+.aside_button{
+  width: 50px;
+  height: 50px;
+}
+
+.pointerLeft{
+  width: 15px;
+  height: 15px;
+  border-width: 4px 4px 0 0;
+  border-radius: 2px 2px;
+  transform: rotate(-135deg);
+}
+footer
+{
+    width: 100%;
+    height: 7%;
+    float: left;
+}
+
+/*tablet styles*/
+@media only screen and (min-width:481px) and (max-width:850px) {
+.circle {
+  position: relative;
+  width: 60px;
+  height: 60px;
+}
+#outerWrapper {
+    background-image: url("../_media/bixi-background_medium600.jpg");
+}
+header .h_homeLink{
+    float: right;
+    /*background:rgb(255,255,255);*/
+    width: 60px;
+    height: 60px;
+} 
+article aside div
+{  
+    margin-top: 20px;
+    width: 200px;
+    height: 80px;
+    font-size: 1.5em;
+}
+.aside_button{
+  width: 40px;
+  height: 40px;
+}
+
+.pointerLeft{
+  width: 13px;
+  height: 13px;
+}  
+}
+@media only screen and (min-width:481px) and (max-width:775px) {
+.circle {
+  width: 50px;
+  height: 50px;
+}
+header .h_homeLink{
+
+    width: 50px;
+    height: 50px;
+} 
+article aside div
+{  
+    margin-top: 20px;
+    width: 200px;
+    height: 80px;
+    font-size: 1.3em;
+}
+.circle span {
+  font-size: 1.0em;
+}
+.aside_button{
+  width: 35px;
+  height: 35px;
+}
+
+.pointerLeft{
+  width: 12px;
+  height: 12px;
+}  
+article nav {
+    width: 55%;
+    height: 20%;
+
+}
 }
 
