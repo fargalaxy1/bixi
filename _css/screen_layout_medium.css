@@ -304,6 +304,11 @@ article section {
    margin-left: 25%;
    top: 20%;
 }
+
+article aside
+{
+    width: 40%;
+}
 #asideText
 {  
     margin-top: 50px;

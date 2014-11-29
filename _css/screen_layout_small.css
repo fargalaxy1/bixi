@@ -75,7 +75,7 @@ article {
     position: relative;
 
 }
-article.myskills  {
+article.mobileLayout  {
 margin-top: 80px; 
      width: 100%;
     height: 90%; 
@@ -88,7 +88,7 @@ article section {
     width: 100%;
     height: 90%;
     position: absolute;
-  top: 20%;
+  top: 210px;
   left: 0;
    background-image: url("../_media/bixi-mobile.jpg");
    background-position: bottom;
@@ -97,17 +97,18 @@ article section {
 }
 .art_textBox{
   padding: 1em;
-  font-size: 1.3em;
+  font-size: 1.2em;
   letter-spacing: 1px;
 }
 
 article aside
 {
-    width: 50%;
-    height: 60%;
-    position: absolute;
-      bottom: 0;
+  width: 50%;
+  height: 60%;
+  position: absolute;
+  bottom: 0;
   left: 0;
+  top: 210px;
 }
 article aside div
 {  
@@ -116,11 +117,6 @@ article aside div
     font-size: 1.8em;
     color: black;
 
-}
-
-.aside_button{
-  width: 50px;
-  height: 50px;
 }
 
 article nav {
@@ -152,7 +148,11 @@ article nav {
   -webkit-transform: translate(-50%, -50%);
   -moz-transform: translate(-50%, -50%);
 }
-
+.aside_button{
+  width: 60px;
+  height: 60px;
+  margin-right: 15px;
+}
 .pointerLeft{
   width: 15px;
   height: 15px;
@@ -160,9 +160,24 @@ article nav {
   border-radius: 2px 2px;
   transform: rotate(-135deg);
 }
+
+#PI_mobile{
+  margin-bottom: 20%;
+}
+
+
 footer
 {
     width: 100%;
     height: 7%;
     float: left;
+}
+
+@media only screen and (max-width:440px) {
+ header .h_bigOne
+ {
+
+    font-size: 1.0em;
+
+}
 }
