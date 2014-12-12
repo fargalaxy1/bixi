@@ -162,7 +162,8 @@ article nav {
 }
 
 #PI_mobile{
-  margin-bottom: 20%;
+  /*margin-bottom: 20%;*/
+   padding-top:5em;
 }
 
 

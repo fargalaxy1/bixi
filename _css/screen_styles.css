@@ -84,10 +84,10 @@ header .h_bigOne
 
 }
 
-header .h_homeLink{
+header .h_homeLink
+{
 background-color:#EBEBEB;
-
-}  
+color: #990033;
 } 
 article
 {

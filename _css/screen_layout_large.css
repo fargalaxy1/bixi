@@ -136,6 +136,9 @@ article aside div
     height: 100px;
     font-size: 1.8em;
 }
+article nav {
+    bottom: 10px;     
+}
 .circle span {
   font-size: 1.3em;
 }
