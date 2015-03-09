@@ -1,4 +1,4 @@
-@font-face {
+/*@font-face {
     font-family: 'lato-regular-webfont';
     src: url('../_fonts/lato/lato-regular-webfont.eot');
     src: url('../_fonts/lato/lato-regular-webfont.eot?#iefix') format('embedded-opentype'),
@@ -8,7 +8,19 @@
     font-weight: normal;
     font-style: normal;
 }
+*/
 @font-face {
+    font-family: 'eurostile-webfont';
+    src: url('../_fonts/eurostile/eurostile-webfont.eot');
+    src: url('../_fonts/eurostile/eurostile-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../_fonts/eurostile/eurostile-webfont.woff') format('woff'),
+         url('../_fonts/eurostile/eurostile-webfont.ttf') format('truetype'),
+         url('../_fonts/eurostile/eurostile-webfont.svg#eurostile-webfont') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*@font-face {
     font-family: 'caviar-dreams-webfont';
     src: url('../_fonts/CaviarDreams/regular/CaviarDreams-webfont.eot');
     src: url('../_fonts/CaviarDreams/regular/CaviarDreams-webfont.eot?#iefix') format('embedded-opentype'),
@@ -18,11 +30,10 @@
     font-weight: normal;
     font-style: normal;
 }
-html {
+*/html {
     /*font-family: 'sofadione-regular';*/
         height: 100%;
- font-family: 'caviar-dreams-webfont';
-
+ font-family: 'eurostile-webfont';
 }
 body {
 /*   background: rgb(25,33,30);*/
