@@ -1068,18 +1068,18 @@ th {
      -moz-box-sizing: border-box;
           box-sizing: border-box;
 }
-html {
+/*html {
   font-size: 10px;
 
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-}
-body {
+}*/
+/*body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
   color: #333;
   background-color: #fff;
-}
+}*/
 input,
 button,
 select,
@@ -1116,6 +1116,8 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+    min-width: 40px;
+   min-height:57px;
 }
 .img-rounded {
   border-radius: 6px;
@@ -1123,6 +1125,7 @@ img {
 .img-thumbnail {
   display: inline-block;
   max-width: 100%;
+
   height: auto;
   padding: 4px;
   line-height: 1.42857143;
@@ -1133,6 +1136,12 @@ img {
        -o-transition: all .2s ease-in-out;
           transition: all .2s ease-in-out;
 }
+@media only screen and (min-width:480px) and (max-width:840px) {
+.img-thumbnail {
+   padding: 2px;
+ 
+}
+  }
 .img-circle {
   border-radius: 50%;
 }
@@ -1564,25 +1573,42 @@ pre code {
 .container {
   padding-right: 15px;
   padding-left: 15px;
-  padding-top: 7%;
+  padding-top: 4%;
   margin-right: auto;
+  margin-top: 7%;
   margin-left: 1%;
+  background-color: rgba(215,215,215, 0.5);
 }
-@media (min-width: 768px) {
+.shadow{
+  -webkit-box-shadow: 0 8px 6px -6px black;
+  -moz-box-shadow: 0 8px 6px -6px black;
+  box-shadow: 0 8px 6px -6px black;
+
+}
+.round {border-radius: 15px;
+-webkit-border-radius: 15px;
+-moz-border-radius: 15px;
+
+}
+@media (min-width: 480px) {
   .container {
     width: 70%;
   }
 }
-@media (min-width: 992px) {
+@media only screen and (min-width:480px) and (max-width:840px) {
   .container {
     width: 70%;
+    margin-left: 23%;
+    margin-top: 12%;
   }
 }
+
+/*
 @media (min-width: 1200px) {
   .container {
     width: 70%;
   }
-}
+}*/
 .container-fluid {
   padding-right: 15px;
   padding-left: 15px;

@@ -87,14 +87,14 @@ article section {
 }
 .circle {
   position: relative;
-  width: 70px;
-  height: 70px;
+  width: 75px;
+  height: 75px;
 }
 
 .circle span {
   display: block;
   position: absolute;
-  font-size: 1.2em;
+  font-size: 1.1em;
   text-align: center;
   top: 50%;
   left: 50%;
@@ -165,7 +165,7 @@ article aside div
     font-size: 1.8em;
 }
 .circle span {
-  font-size: 1.2em;
+  font-size: 1em;
 }
 .aside_button{
   width: 50px;
@@ -193,14 +193,14 @@ article aside div
 
 header .h_homeLink{
 
-    width: 60px;
-    height: 60px;
+    width: 75px;
+    height: 75px;
 } 
 
 .circle {
   position: relative;
-  width: 60px;
-  height:60px;
+  width: 75px;
+  height:75px;
   margin-bottom: 30px;
 }
 .circle span {
@@ -298,6 +298,15 @@ article aside div
     position: relative;
     font-size: .85em;
     margin-left: -50px;
+}
+.circle {
+  position: relative;
+  width: 60px;
+  height:60px;
+  margin-bottom: 30px;
+}
+.circle span {
+  font-size: 1em;
 }
 article section {
     width: 60%;
