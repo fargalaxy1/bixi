@@ -70,7 +70,7 @@ header .h_homeLink{
     float: right;
     width: 90px;
     height: 90px;
-    margin: 40px -150px 0px 15px;
+    margin: 25px -150px 0px 15px;
     padding-left: 10px;
 
 }  
@@ -125,13 +125,13 @@ footer
 @media only screen and (min-width:992px) and (max-width:1199px) {
 .circle {
   position: relative;
-  width: 90px;
-  height:90px;
+  width: 85px;
+  height:85px;
 }
 header .h_homeLink{
 
-    width: 90px;
-    height: 90px;
+    width: 85px;
+    height: 85px;
 } 
 article aside div
 {  

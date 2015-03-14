@@ -87,8 +87,8 @@ article section {
 }
 .circle {
   position: relative;
-  width: 75px;
-  height: 75px;
+  width: 70px;
+  height: 70px;
 }
 
 .circle span {
@@ -101,6 +101,10 @@ article section {
   -ms-transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
   -moz-transform: translate(-50%, -50%);
+      -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    
 }
 article aside
 {
@@ -299,6 +303,12 @@ article aside div
     font-size: .85em;
     margin-left: -50px;
 }
+header .h_homeLink{
+
+    width: 60px;
+    height: 60px;
+} 
+
 .circle {
   position: relative;
   width: 60px;

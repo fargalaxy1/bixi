@@ -1598,11 +1598,32 @@ pre code {
 @media only screen and (min-width:480px) and (max-width:840px) {
   .container {
     width: 70%;
+/*    margin-left: 150px;
+    margin-top: 90px;*/
     margin-left: 23%;
-    margin-top: 12%;
+    margin-top: 90px;
   }
 }
-
+@media only screen and (min-width:480px) and (max-width:580px) {
+  .container {
+    width: 70%;
+/*    margin-left: 150px;
+    margin-top: 90px;*/
+    margin-left: 25%;
+    margin-top: 70px;
+  }
+}
+@media only screen and (max-width:479px) {
+  .container {
+    width: 90%;
+/*    margin-left: 150px;
+    margin-top: 90px;*/
+/*    margin-left: 25%;*/
+    position: absolute;
+  top: 240px;
+  left: 0; 
+   }
+}
 /*
 @media (min-width: 1200px) {
   .container {
