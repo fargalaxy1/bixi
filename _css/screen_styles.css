@@ -8,6 +8,15 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: "icomoon";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../_fonts/icomoon/fonts/icomoon.eot?#iefixffqnr3") format("embedded-opentype"),
+         url("../_fonts/icomoon/fonts/icomoon.woff?ffqnr3") format("woff"),
+         url("../_fonts/icomoon/fonts/icomoon.ttf?ffqnr3") format("truetype"),
+         url("../_fonts/icomoon/fonts/icomoon.svg?ffqnr3#icomoon") format("svg");
+}
 html {
  font-family: 'eurostile-webfont';
   height: 100%;
@@ -52,10 +61,37 @@ h3 {
     font-size: 1.5em;
     margin: 0 0 1em 0;
 }
+
 header .h_bigOne
  {
      /*font-family: 'lato-regular-webfont';*/
 
+}
+.h_bigOne a
+{
+    text-decoration: none;
+    color: #858282;
+    padding-left: 5px;
+  }
+
+.h_bigOne a:hover {
+
+  color: #3F2E2E;
+    transition: all .4s ease-in;
+    -moz-transition: all .4s ease-in;
+    -ms-transition: all .4s ease-in;
+    -o-transition: all .4s ease-in;
+
+}
+#socialmedia
+{
+  float: left;
+  padding-right: 13px;
+
+}
+#maintitle
+{
+  float: right;
 }
 #red
 {

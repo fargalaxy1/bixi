@@ -266,6 +266,18 @@ article aside
 }
 
 @media only screen and (min-width:480px) and (max-width:740px) {
+
+ #socialmedia
+{
+float:none;
+margin-left: 40%;
+padding-bottom: 10px;
+padding-right: 0px;
+font-size: 1.1em;
+} 
+#maintitle{
+  margin-left: 10%;
+}
 article section {
     width: 60%;
     height: 70%;

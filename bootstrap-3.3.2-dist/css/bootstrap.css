@@ -13,6 +13,10 @@ html {
 body {
   margin: 0;
 }
+* {
+  margin: 0;
+  padding: 0;
+}
 article,
 aside,
 details,
@@ -1571,12 +1575,13 @@ pre code {
   overflow-y: scroll;
 }
 .container {
+    margin-top: 7%;
+  margin-left: 1%;
   padding-right: 15px;
   padding-left: 15px;
   padding-top: 4%;
   margin-right: auto;
-  margin-top: 7%;
-  margin-left: 1%;
+
   background-color: rgba(215,215,215, 0.5);
 }
 .shadow{
@@ -5746,7 +5751,7 @@ button.close {
   background: transparent;
   border: 0;
 }
-.modal-open {
+.-open {
   overflow: hidden;
 }
 .modal {
@@ -5783,7 +5788,7 @@ button.close {
 .modal-dialog {
   position: relative;
   width: auto;
-  margin: 10px;
+  margin: auto;
 }
 .modal-content {
   position: relative;
