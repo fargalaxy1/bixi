@@ -85,13 +85,29 @@ article section {
     height: 70%;
    float: left;
    position: relative;
+   margin-top: 13%;
+}
+
+#mycontactSection
+{
+   margin-top: 7%;
+
+}
+
+article section div
+{  
+/*    width: 250px;
+    height: 100px;*/
+    font-size: 2em;
+    color: black;
+margin-left: 15%;
 }
 article aside
 {
     width: 50%;
     height: 80%;
     float: right;
-    margin-top: 8%;
+   margin-top: 20%;
     position: relative;  
 }
 article aside div

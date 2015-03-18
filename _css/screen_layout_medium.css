@@ -73,12 +73,26 @@ article {
     height: 80%;*/
 
 }
+
 article section {
-    /*background:rgb(255,255,0);*/
-    width: 50%;
+    width: 55%;
     height: 70%;
    float: left;
    position: relative;
+   margin-top: 18%;
+}
+article section div
+{  
+/*    width: 250px;
+    height: 100px;*/
+    font-size: 2em;
+    color: black;
+margin-left: 7%;
+}
+#mycontactSection
+{
+   margin-top: 12%;
+
 }
 .art_textBox{
   padding: 1em;
@@ -108,12 +122,13 @@ article section {
 }
 article aside
 {
-    width: 50%;
+    width: 40%;
     height: 60%;
     float: right;
-    margin-top: 8%;
+    margin-top: 20%;
     position: relative;  
 }
+
 article aside div
 {  
     width: 230px;
@@ -160,7 +175,13 @@ header .h_homeLink{
 
     width: 70px;
     height: 70px;
-} 
+}
+
+#mycontactSection
+{
+   margin-top: 14%;
+
+}
 article aside div
 {  
     margin-top: 20px;
@@ -212,14 +233,17 @@ header .h_homeLink{
 }
 
 article section {
-    width: 45%;
+    width: 55%;
     height: 70%;
-   float: left;
-    position: absolute;
-   margin-left: 20%;
-   top: 20%;
+    position: relative;
+   margin-left: 25%;
+   /*top: 20%;*/
 }
+#mycontactSection
+{
+   margin-top: 17%;
 
+}
 .art_textBox{
   padding: 1em;
   font-size: 1.2em;
@@ -227,7 +251,7 @@ article section {
 }
 
 .moreSpace{
-  display: none;
+  /*display: none;*/
 
 }
 article nav {
@@ -241,18 +265,14 @@ article aside
 {
     width: 35%;
     height: 60%;
-    float: left;
     margin-top: 8%;
-    position: relative;  
     margin-left: 25%;
+    float: left;
 }
 #asideText
 {  
     margin-top: 50px;
     margin-left: 40px;    
-    width: 150px;
-    height: 100px;
-    font-size: 1.3em;
 }
 .aside_button{
   margin-left: 40px;    
@@ -279,22 +299,33 @@ font-size: 1.1em;
   margin-left: 10%;
 }
 article section {
-    width: 60%;
+    width: 65%;
     height: 70%;
    float: left;
-    position: absolute;
-   margin-left: 20%;
+    position: relative;
+/*   margin-left: 25%;
    top: 20%;
+}*/
 }
+article section div{
+font-size: 1.8em;
+   /*top: 20%;*/
+}
+#asideText
+{  
+    margin-top: 50px;
+    margin-left: 40px;    
 
+}
 .art_textBox{
   padding: 1em;
-  font-size: 1.0em;
+  /*font-size: 1.0em;*/
   letter-spacing: 1.5px;
 }
 article aside
 {
-    margin-left: -45%;
+  width: 30%;
+    /*margin-left: -45%;*/
 }
 article aside div
 {  
@@ -320,7 +351,11 @@ header .h_homeLink{
     width: 60px;
     height: 60px;
 } 
+#mycontactSection
+{
+   margin-top: 20%;
 
+}
 .circle {
   position: relative;
   width: 60px;
@@ -331,14 +366,16 @@ header .h_homeLink{
   font-size: 1em;
 }
 article section {
-    width: 60%;
+    width: 78%;
     height: 70%;
    float: left;
-    position: absolute;
-   margin-left: 25%;
-   top: 20%;
+    position: relative;
+/*   margin-left: 25%;*/
+    margin-top: 25%;
 }
-
+.art_textBox{
+  font-size: 1.1em;
+}
 article aside
 {
     width: 40%;
@@ -347,9 +384,8 @@ article aside
 {  
     margin-top: 50px;
     margin-left: 40px;    
-    width: 150px;
-    height: 100px;
-    font-size: 1.3em;
+
+    font-size: 1.5em;
 }
 .aside_button{
   margin-left: 40px;    

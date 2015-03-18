@@ -1625,8 +1625,9 @@ pre code {
     margin-top: 90px;*/
 /*    margin-left: 25%;*/
     position: absolute;
-  top: 240px;
+  top: 220px;
   left: 0; 
+  bottom: 20px;
    }
 }
 /*
