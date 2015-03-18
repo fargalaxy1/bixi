@@ -233,7 +233,7 @@ header .h_homeLink{
 }
 
 article section {
-    width: 55%;
+    width: 70%;
     height: 70%;
     position: relative;
    margin-left: 25%;
@@ -269,6 +269,12 @@ article aside
     margin-left: 25%;
     float: left;
 }
+#myskills_aside
+{
+      position: absolute;
+      margin-top: 35%;
+
+}
 #asideText
 {  
     margin-top: 50px;
@@ -299,7 +305,7 @@ font-size: 1.1em;
   margin-left: 10%;
 }
 article section {
-    width: 65%;
+    width: 70%;
     height: 70%;
    float: left;
     position: relative;
@@ -317,6 +323,13 @@ font-size: 1.8em;
     margin-left: 40px;    
 
 }
+
+#myskills_aside
+{
+      position: absolute;
+      margin-top: 40%;
+
+}
 .art_textBox{
   padding: 1em;
   /*font-size: 1.0em;*/
@@ -329,7 +342,7 @@ article aside
 }
 article aside div
 {  
-    margin-top: 20px;
+    margin-top: 30px;
     width: 200px;
     height: 100px;
     font-size: 1.4em;
@@ -378,7 +391,7 @@ article section {
 }
 article aside
 {
-    width: 40%;
+    width: 35%;
 }
 #asideText
 {  
@@ -391,6 +404,11 @@ article aside
   margin-left: 40px;    
   width: 40px;
   height: 40px;
+}
+#myskills_aside
+{
+      margin-top: 50%;
+
 }
 .pointerLeft{
   width: 15px;
