@@ -178,3 +178,42 @@ article nav {
   letter-spacing: 2px;
 }
 }
+@media only screen and (max-height:685px) {
+article nav {
+    width: 50%;
+    height: 20%;
+    bottom: -5%;
+}
+.circle {
+  position: relative;
+  width: 80px;
+  height:80px;
+}
+header .h_homeLink{
+
+    width: 80px;
+    height: 80px;
+} 
+.circle span {
+  font-size: 1.2em;
+}
+}
+@media only screen and (max-height:505px) {
+article nav {
+bottom: -5%;
+}
+.circle {
+  position: relative;
+  width: 65px;
+  height:65px;
+}
+header .h_homeLink{
+
+    width: 65px;
+    height: 65px;
+} 
+.circle span {
+  font-size: 1.1em;
+}
+
+}

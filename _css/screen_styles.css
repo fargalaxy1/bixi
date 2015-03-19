@@ -203,7 +203,7 @@ article aside a
 }
 .aside_button{
     background-color: #edecea;
-    border: 1px dashed #2F2F2F;
+    border: 1px solid #2F2F2F;
     color: #2F2F2F;
     /*background-clip: content-box;*/
   width: 100px;

@@ -1600,6 +1600,18 @@ pre code {
     width: 70%;
   }
 }
+@media only screen and (max-height:685px) {
+  .container {
+    height: 55%;
+    width: 60%;
+  }
+}
+@media only screen and (max-height:505px) {
+  .container {
+    height: 50%;
+    width: 55%;
+  }
+}
 @media only screen and (min-width:480px) and (max-width:840px) {
   .container {
     width: 70%;
