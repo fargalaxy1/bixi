@@ -130,7 +130,10 @@ article nav {
 position: absolute;
 
 }
-
+#mobile_background
+{
+  display: none;
+}
 footer
 {
     width: 100%;

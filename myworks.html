@@ -11,11 +11,9 @@
     <meta name="author" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link href="bootstrap-3.3.2-dist/css/bootstrap.css" rel="stylesheet">
-    <script src="jquery-1.11.2.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-    <script src="works-gallery.js"></script>
- 
+
+      <link href="bootstrap-3.3.2-dist/css/bootstrap.css" rel="stylesheet">
+
 	<link rel="stylesheet" type="text/css" href="_css/screen_styles.css" >    
 	<link rel="stylesheet" type="text/css" media="only screen and (min-width:992px)" href="_css/screen_layout_large.css">
 	<link rel="stylesheet" type="text/css" media="only screen and (min-width:480px) and (max-width:991px)" href="_css/screen_layout_medium.css">
@@ -57,7 +55,7 @@
       }
       .modal-dialog img {
           text-align:center;
-          margin:0 auto;
+          margin: auto;
       }
     .controls{          
         width:50px;
@@ -72,13 +70,14 @@
     }
       /*override modal for demo only*/
       .modal-dialog {
+      	margin-left: 15px;
           max-width:500px;
-          padding-top: 90px;
+          padding-top: 30px;
       }
       @media screen and (min-width: 768px){
           .modal-dialog {
               width:500px;
-              padding-top: 90px;
+              padding-top: 20px;
           }          
       }
       @media screen and (max-width:1500px){
@@ -120,9 +119,9 @@
 			 	<!-- <div class="h_homeLink"> </div> -->
 			</header>
 			<article class="mobileLayout"> 
-<!-- 				<div id="mobile_background">
+				<div id="mobile_background">
 
-				</div> -->
+				</div>
 				<div class="container pre-scrollable round shadow">
 					<ul class="row">
 						<li class="col-lg-2 col-md-2 col-sm-2 col-xs-3"><img class="img-responsive img-thumbnail" src="_media/works/JPEG/ph1.jpg">
@@ -189,12 +188,16 @@
 
     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
       <div class="modal-dialog">
-        <div class="modal-content">         
-          <div class="modal-body">                
+        <div class="modal-content">
+<!--         <button class="close" data-dismiss="modal" type="button">×</button>        
+ -->          <div class="modal-body">                
           </div>
         </div><!-- /.modal-content -->
       </div><!-- /.modal-dialog -->
     </div><!-- /.modal -->
-    
+
+    <script src="jquery-1.11.2.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <script src="works-gallery.js"></script>  
 </body>
 

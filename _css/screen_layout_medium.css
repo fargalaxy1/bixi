@@ -147,7 +147,10 @@ article nav {
   width: 50px;
   height: 50px;
 }
-
+#mobile_background
+{
+  display: none;
+}
 .pointerLeft{
   width: 15px;
   height: 15px;
