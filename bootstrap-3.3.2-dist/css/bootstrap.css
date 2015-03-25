@@ -1575,7 +1575,7 @@ pre code {
   overflow-y: scroll;
 }
 .container {
-    margin-top: 7%;
+  margin-top: 9%;
   margin-left: 1%;
   padding-right: 15px;
   padding-left: 15px;
@@ -1600,16 +1600,24 @@ pre code {
     width: 70%;
   }
 }
-@media only screen and (max-height:685px) {
+@media (min-width: 841px) {
   .container {
+        margin-top: 8%;
+  }
+}
+@media only screen and (max-height:760px) {
+  .container {
+    margin-top: 8%;
     height: 55%;
     width: 60%;
   }
 }
 @media only screen and (max-height:505px) {
   .container {
+        margin-top: 6%;
+
     height: 50%;
-    width: 55%;
+    width: 50%;
   }
 }
 @media only screen and (min-width:480px) and (max-width:840px) {
@@ -1643,12 +1651,9 @@ pre code {
   bottom: 40px;
    }
 }
-/*
-@media (min-width: 1200px) {
-  .container {
-    width: 70%;
-  }
-}*/
+
+
+
 .container-fluid {
   padding-right: 15px;
   padding-left: 15px;
@@ -5869,10 +5874,37 @@ button.close {
   height: 50px;
   overflow: scroll;
 }
-@media (min-width: 768px) {
+@media (min-width: 300px) {
   .modal-dialog {
+      width: 300px;
+    margin-top: 8%;
+
+  }
+}
+@media (min-width: 450px) {
+  .modal-dialog {
+      width: 400px;
+    margin-top: 8%;
+
+  }
+}
+@media (min-width: 550px) {
+  .modal-dialog {
+      width: 500px;
+    margin-top: 8%;
+
+  }
+}
+@media (min-width: 700px) {
+/* marti */
+/*  .modal-dialog {
     width: 600px;
     margin: 30px auto;
+  }*/
+
+  .modal-dialog {
+    width: 600px;
+    margin-top: 8%;
   }
   .modal-content {
     -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, .5);

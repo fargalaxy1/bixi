@@ -226,8 +226,11 @@ color: #edecea;
   width: 20px;
   height: 20px;
   border: solid #3f3f3f;
-  border-width: 8px 8px 0 0;
+  -webkit-border-radius:4px 4px;
+  -webkit-border-width: 6px 6px 0 0;
+  border-width: 6px 6px 0 0;
   border-radius: 4px 4px;
+  -webkit-transform: rotate(-135deg);
   transform: rotate(-135deg);
   overflow: hidden;
   margin-top: 40px;
@@ -236,3 +239,8 @@ color: #edecea;
 
 footer {
 }
+
+/*#myModal1{
+top:5%;
+outline: none
+}*/
